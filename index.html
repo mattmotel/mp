@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Monster Progress</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css2?family=Epilogue' rel='stylesheet'>
+  <style>
+    body {
+      font-family: Epilogue, sans-serif;
+    }
+
+    .button {
+      background: #3FA9F5;
+      border: 5px solid #3FA9F5;
+    }
+
+    .button:hover {
+      background: black;
+      color: #3FA9F5;
+
+
+    }
+
+    .container-mp {
+      max-width: 500px;
+    }
+    .rect1,.rect2,.rect3{
+      transition:1s all;
+    }
+    .logo:hover .rect1{
+      width: 131px;
+    }
+    .logo:hover .rect2 {
+      width: 141px;
+    }
+    .logo:hover .rect3 {
+      width: 121px;
+    }
+  </style>
+</head>
+
+<body class="bg-black text-white">
+
+  <div class="container-mp mx-auto text-center">
+
+    <svg class="logo m-16 mx-auto block" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="136.6864px" height="124px" viewBox="0 0 136.6864 124" style="enable-background:new 0 0 136.6864 124;"
+      xml:space="preserve">
+      <defs>
+      </defs>
+      <g>
+        <g>
+          <path style="fill:#FFFFFF;" d="M0,52.9707h1.1368l34.6362,38.048l34.1195-38.048h1.2407V124h-13.958V97.6357
+			c0-4.7563,0.5168-12.3044,0.5168-12.3044s-4.2389,6.2042-7.5474,9.9256l-13.958,15.6129h-1.3439l-13.958-15.6129
+			c-3.3085-3.7214-7.5474-9.9256-7.5474-9.9256s0.5168,7.5481,0.5168,12.3044V124H0V52.9707z" />
+          <path style="fill:#FFFFFF;" d="M85.8178,53.6939h19.4376c19.644,0,31.431,10.2359,31.431,27.1914
+			c0,16.9569-11.8902,27.0889-31.431,27.0889h-4.9628V124H85.8178V53.6939z M104.8418,95.2569
+			c11.7863,0,16.9562-4.755,16.9562-14.3716c0-9.7178-5.3763-14.4741-16.9562-14.4741h-4.5492v28.8457H104.8418z" />
+        </g>
+        <g>
+          <g>
+            <rect class="rect1" style="fill:#3FA9F5;" width="71" height="13" />
+            <rect  class="rect2" y="16.5" style="fill:#3FA9F5;" width="110" height="13" />
+          </g>
+          <rect  class="rect3" y="33" style="fill:#3FA9F5;" width="50" height="13" />
+        </g>
+      </g>
+    </svg>
+
+    <div class="text-3xl mt-8">
+      <p>We are a brand new way to hunt for tech job candidates.</p>
+
+      <p>We find the people with the exact skills you want and send them directly to you.</p>
+
+      <p>We’ll launch soon... but want to help us get ready for prime time? Tweet at @monprogjobs to sign up for the private beta.</p>
+    </div>
+    <a class="mt-8 rounded-full p-8 text-xl  button inline-block" href="https://twitter.com/monprogjobs">Grab an invite</a>
+  </div>
+
+</body>
+
+</html>
